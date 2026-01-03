@@ -1,4 +1,4 @@
-## Datasheet for your BBO capstone project data set.
+# Datasheet for your BBO capstone project data set.
 
 ### Motivation
 This dataset was created to develop a Black Box Optimization (BBO) challenge. A data sheet serves as a standardized identity document for the dataset, detailing its origin, characteristics, and intended uses. Since BBO involves optimizing costly and unknown functions with a limited budget, clear documentation is vital for both trust and technical rigor.
