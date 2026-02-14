@@ -13,9 +13,9 @@ The dataset in this project consist in eight functions where each feature will h
 
 Each data point consists: 
 
-Inputs are initially represented by known data points (x, y); this initial set is crucial for the initial training of the model and establishes a baseline. Each week, the number of data points increases. This simulates a real-life scenario where data is constantly collected over time. This new data is essential for the model to learn and adapt to a larger feature space and improve its optimization.
+- Inputs are initially represented by known data points (x, y); this initial set is crucial for the initial training of the model and establishes a baseline. Each week, the number of data points increases. This simulates a real-life scenario where data is constantly collected over time. This new data is essential for the model to learn and adapt to a larger feature space and improve its optimization.
 
-Output is the result of the optimization process, where the output will be a single value for each feature
+- Output is the result of the optimization process, where the output will be a single value for each feature
 
 
 ## MODEL
@@ -29,3 +29,16 @@ During hyperparameter tuning, the following key hyperparameters were explored
 Gaussian Process Kernel Parameters (C, RBF length_scale and bounds): a combination of a ConstantKernel (C) and a RadialBasisFunction (RBF) kernel is a common and flexible choice for GPR. The ConstantKernel accounts for the overall magnitude of the function, while the RBF kernel captures the smoothness and correlation between data points. 
 Acquisition Function Parameters (kappa for UCB, xi for PI and EI): these parameters control the exploration-exploitation trade-off in the acquisition functions.
 These hyperparameters were prioritized to ensure the Gaussian Process was robust, numerically stable, and capable of effectively modeling the objective function, while the acquisition function parameters were chosen to balance exploration and exploitation during the Bayesian Optimization process.
+
+
+## RESULTS
+
+- F1 (2D)  ->  Best value  6.201
+- F2 (2D)  ->  Best value  0.894
+- F3 (3D)  ->  Best value -0.019
+- F4 (4D)  ->  Best value  0.601
+- F5 (4D)  ->  Best value  3527.337
+- F6 (5D)  ->  Best value -0.295
+- F7 (6D)  ->  Best value  1.955
+- F8 (8D)  ->  Best value  9.967 
+
