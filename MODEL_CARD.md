@@ -1,4 +1,4 @@
-# Model Card - Black-Box Optimisation Strategy
+# Model Card - Black-Box Optimisation Capstone Project
 
 ## Overview 
 
